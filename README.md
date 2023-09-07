@@ -41,3 +41,5 @@ The simulated push notification system serves as a placeholder. A more complex a
 ## Notification Flow Diagram
 
 Here's a sequence diagram to explain the hypothetical flow for real push notifications:
+
+<img src="/notifications.png"/>

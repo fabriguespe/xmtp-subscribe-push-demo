@@ -1,0 +1,126 @@
+/* App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+}
+.App-header h1 {
+  font-size: 24px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 50px;
+}
+.subscribe-container {
+  margin-bottom: 20px;
+}
+.App-section {
+  margin: 20px 0;
+  padding-bottom: 50px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.button-container {
+  margin: 10px;
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  color: #fff; /* Light text color for contrast */
+  text-align: center;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Additional styles for the dark theme button */
+section.dark {
+  background-color: #333; /* Dark background color */
+  /* You can add specific styles for the dark theme button here */
+}
+
+/* Add any other styles you'd like for the footer */
+
+.footer-buttons.default h2,
+.footer-buttons.light h2 {
+  color: #000;
+}
+
+.footer-buttons.dark {
+  color: white;
+}
+
+.App span.badge {
+  padding: 0.225rem;
+  background-color: #fff;
+  font-size: 12px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  display: inline-block;
+  margin: auto;
+  margin-right: 10px;
+}
+.divider {
+  height: 1px; /* thickness of the line */
+  width: 100%;
+  background-color: #e0e0e0; /* color of the line */
+  margin: 16px 0; /* space above and below the line */
+}
+.App-section > div {
+  padding: 10px;
+}
+
+/*BUTTON*/
+.home-button {
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.home-button .logo path {
+  fill: #fc4f37; /* original color */
+}
+.home-button .logo {
+  transition: all 0.5s ease; /* smooth transition */
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.default .home-button:hover .logo path {
+  transform: rotate(360deg);
+  fill: #000;
+}
+.default .home-button:hover .logo {
+  transform: rotate(360deg);
+  fill: #000;
+}
+.light .home-button:hover .logo path {
+  transform: rotate(360deg);
+  fill: #000;
+}
+.light .home-button:hover .logo {
+  transform: rotate(360deg);
+}
+.dark .home-button:hover .logo path {
+  transform: rotate(360deg);
+  fill: #fff;
+}
+.dark .home-button:hover .logo {
+  transform: rotate(360deg); /* 360-degree spin */
+  fill: #fff; /* new color (red in this example) */
+}
