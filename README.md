@@ -68,8 +68,6 @@ Here's a sequence diagram to explain the hypothetical flow for real push notific
 
 <img src="/notifications.png"/>
 
-_This diagram outlines how a full-fledged push notification system might work, involving various services like a backend, a notification server, and notification delivery platforms (e.g., FCM for Android or APNS for Apple devices)_
-
 ## Relevant resources
 
 - [Architectural overview of XMTP](https://xmtp.org/docs/concepts/architectural-overview)
