@@ -10,7 +10,7 @@ The application allows users to connect their Ethereum wallets to the XMTP netwo
 
 - Wallet Connection
 - Subscription Count
-- Subscribe/Unsubscribe Functionality
+- Subscribe/Unsubscribe component
 - Simulated Push Notifications
 
 ## How to Run
@@ -30,7 +30,7 @@ The application enables users to connect their Ethereum wallets through Metamask
 
 #### Subscription
 
-Users can subscribe or unsubscribe to receive simulated push notifications. The subscriber count is displayed on the main screen. Here's a simple example of how to use the subscribe component:
+Users can subscribe or unsubscribe to receive simulated push notifications. The subscriber count is displayed on the main screen. Here's a simple example of how to use an implementation of our subscribe component:
 
 **Properties:**
 

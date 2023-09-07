@@ -6,17 +6,12 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "@xmtp/content-type-reaction": "^1.0.1",
-    "@xmtp/content-type-read-receipt": "^1.0.1",
-    "@xmtp/content-type-remote-attachment": "^1.0.7",
     "@xmtp/react-sdk": "^1.1.2",
-    "axios": "^1.5.0",
     "buffer": "^6.0.3",
     "ethers": "5.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web3.storage": "^4.5.5"
+    "react-scripts": "5.0.1"
   },
   "repository": {
     "type": "git",
