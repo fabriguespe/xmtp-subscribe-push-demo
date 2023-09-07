@@ -68,8 +68,8 @@ Here's a sequence diagram to explain the hypothetical flow for real push notific
 
 <img src="/notifications.png"/>
 
-## Relevant resources
+## Additional Resources
 
-- [Architectural overview of XMTP](https://xmtp.org/docs/concepts/architectural-overview)
-- [Setup Guide for XMTP Notification Server](https://xmtp.org/docs/tutorials/other/notifications-server)
-- [Notification Servers Go](https://github.com/xmtp/example-notification-server-go/blob/np/export-kotlin-proto-code/README.md#local-setup)
+- [Understanding the Architecture of XMTP](https://xmtp.org/docs/concepts/architectural-overview)
+- [Guide to Setting up XMTP Notification Server](https://xmtp.org/docs/tutorials/other/notifications-server)
+- [Go-based Notification Servers Example](https://github.com/xmtp/example-notification-server-go/blob/np/export-kotlin-proto-code/README.md#local-setup)
