@@ -1,4 +1,4 @@
-## Overview
+## 🔔 Notifications Button Demo
 
 The application allows users to connect their Ethereum wallets to the XMTP network, subscribe or unsubscribe to notifications, and receive simulated push notifications.
 
