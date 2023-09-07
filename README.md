@@ -1,6 +1,8 @@
 ## Overview
 
-The USubscribe application is a React-based project that serves as a showcase for a subscribe/unsubscribe button functionality integrated with a simulated push notification system. The application allows users to connect their Ethereum wallets, subscribe or unsubscribe to notifications, and receive simulated push notifications.
+The application allows users to connect their Ethereum wallets to the XMTP network, subscribe or unsubscribe to notifications, and receive simulated push notifications.
+
+- [Live Demo](https://xmtp-subscribe-push-demo.vercel.app/)
 
 **Note**: The push notification in this application is only a simulation. To implement actual push notifications, further backend work and integration would be required.
 
@@ -43,3 +45,11 @@ The simulated push notification system serves as a placeholder. A more complex a
 Here's a sequence diagram to explain the hypothetical flow for real push notifications:
 
 <img src="/notifications.png"/>
+
+_This diagram outlines how a full-fledged push notification system might work, involving various services like a backend, a notification server, and notification delivery platforms (e.g., FCM for Android or APNS for Apple devices)_
+
+## Relevant resources
+
+- [Architectural overview of XMTP](https://xmtp.org/docs/concepts/architectural-overview)
+- [Setup Guide for XMTP Notification Server](https://xmtp.org/docs/tutorials/other/notifications-server)
+- [Notification Servers Go](https://github.com/xmtp/example-notification-server-go/blob/np/export-kotlin-proto-code/README.md#local-setup)
