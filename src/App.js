@@ -87,7 +87,7 @@ function App() {
       )}
 
       <header className="App-header">
-        <h1>USubscribe</h1>
+        <h1>🔔 Notifications Button</h1>
         <small>Subscriber count: {subscriberCount}</small>
       </header>
       <section className="App-section">
