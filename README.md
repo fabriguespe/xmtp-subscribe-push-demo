@@ -41,7 +41,7 @@ Users can subscribe or unsubscribe to receive simulated push notifications. The 
 - `onSubscribe`: (Required) A callback function that is called when a new subscription is made.
 - `onUnsubscribe`: (Required) A callback function that is called when a subscription is cancelled.
 - `onError`: (Required) A callback function that is called when an error occurs during subscription or unsubscription.
-- **`env`**: XMTP developer environment. Read more [here](https://xmtp.org/docs/build/authentication#environments)
+- `env`: XMTP developer environment. Read more [here](https://xmtp.org/docs/build/authentication#environments)
 
 **Example Usage:**
 
@@ -54,7 +54,7 @@ Users can subscribe or unsubscribe to receive simulated push notifications. The 
   onSubscribe={(address) => console.log("New subscriber: " + address)}
   onUnsubscribe={(address) => console.log("Unsubscribed: " + address)}
   onError={(address) => console.log("Error subscribing: " + address)}
-  env={"production"}
+  env={"production"} // or "dev"
 />
 ```
 

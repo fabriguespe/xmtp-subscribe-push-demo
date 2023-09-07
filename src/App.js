@@ -99,7 +99,7 @@ function App() {
             theme={"default"}
             size={"small"}
             wallet={signer}
-            env={process.env.REACT_APP_XMTP_ENV}
+            env={"dev"}
             checkSubscriptionStatus={(address) => {
               return checkSubscriptionStatus(address);
             }}
