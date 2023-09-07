@@ -80,4 +80,4 @@ _This diagram outlines how a full-fledged push notification system might work, i
 - [Setup Guide for XMTP Notification Server](https://xmtp.org/docs/tutorials/other/notifications-server)
 - [Notification Servers Go](https://github.com/xmtp/example-notification-server-go/blob/np/export-kotlin-proto-code/README.md#local-setup)
 
-![Watch the video](notifications.png)(push.mp4)
+![Watch the video](push.mp4)
