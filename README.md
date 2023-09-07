@@ -62,10 +62,6 @@ Users can subscribe or unsubscribe to receive simulated push notifications. The 
 
 The application triggers simulated push notifications when a user subscribes or unsubscribes. These are basic browser notifications and not real push notifications.
 
-#### Note on Push Notifications
-
-The simulated push notification system serves as a placeholder. A more complex architecture involving backend servers and notification services is required to achieve a full-fledged push notification system.
-
 ## Notification Flow Diagram
 
 Here's a sequence diagram to explain the hypothetical flow for real push notifications:
